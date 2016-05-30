@@ -16,9 +16,9 @@ var ids = {
         callbackURL: 'http://authentication-master.azurewebsites.net/auth/facebook/callback'
     },
     google: {
-        clientID: 'YOUR_GOOGLE_CLIENTID',
-        clientSecret: 'YOUR_GOOGLE_CLIENTSECRET',
-        callbackURL: 'YOUR_DOMAIN/auth/google/callback'
+        clientID: '302237390115-sgv401i8jht03pfhid7gt2ps55mvtbal.apps.googleusercontent.com',
+        clientSecret: '3laneXvT0QKv4iRrF0ZX_hIf',
+        callbackURL: 'http://authentication-master.azurewebsites.net/auth/google/callback'
     },
     twitter: {
         consumerKey: 'YOUR_TWITTER_CONSUMERKEY',
