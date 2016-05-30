@@ -13,7 +13,7 @@ var ids = {
     facebook: {
         clientID: '409052969272566',
         clientSecret: '21b89c1bd2d9ba8e1e364bb518ef6b1d',
-        callbackURL: 'http://localhost:3000/auth/facebook/callback'
+        callbackURL: 'http://authentication-master.azurewebsites.net/auth/facebook/callback'
     },
     google: {
         clientID: 'YOUR_GOOGLE_CLIENTID',

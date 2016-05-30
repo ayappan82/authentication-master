@@ -85,8 +85,13 @@ function ensureAuthenticated(req, res, next) {
 }
 
 // port
-var port = process.env.VCAP_APP_PORT || 3000;
-app.listen(port, function () {
+//var port = process.env.VCAP_APP_PORT || 3000;
+//app.listen(port, function () {
+//    console.log("listening to port" + port);
+//});
+var http = require('http').Server(app);
+var port = process.env.PORT || 3000;
+http.listen(port, function () {
     console.log("listening to port" + port);
 });
 
